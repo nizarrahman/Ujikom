@@ -47,7 +47,7 @@
                     $mail->Username='YourEmail';
                     $mail->Password='YourEmailAppPassword';
     
-                    $mail->setFrom('pengaduanmalkot@gmail.com', 'noreply@malangkota.go.id');
+                    $mail->setFrom('pengaduankabcianjur@gmail.com', 'noreply@cianjurkab.go.id');
                     $mail->addAddress($_POST["email"]);
     
                     $mail->isHTML(true);
@@ -56,7 +56,7 @@
                     <h3>Kode verifikasi akun anda adalah $otp <br></h3>
                     <br><br>
                     <p>Hormat kami</p>
-                    <b>Pemerintah Kota Malang</b>";
+                    <b>Pemerintah Kota Cianjur</b>";
     
                     if(!$mail->send()){
                         echo "<script>alert('Alamat Email Tidak Valid!')</script>";
@@ -135,7 +135,7 @@
                     <div class="links">
                         <p>Sudah mempunyai akun? </p>
                         <br>  
-                        <a align="center" href="cek.php">Masuk disini</a>
+                        <a align="center" href="login.php">Masuk disini</a>
                     </div>
                 </div>
             </form>
