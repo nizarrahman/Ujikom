@@ -50,7 +50,7 @@
 			}
 		}
 		else{
-			echo "<script>alert('Gagal Login Sob')</script>";
+			echo "<script>alert('Username Atau Password')</script>";
 		}
 
 	}
